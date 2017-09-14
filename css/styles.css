@@ -5,3 +5,23 @@
 button {
   width:150px;
 }
+
+.celebrities {
+  margin-top:20px;
+}
+
+.celebrities img {
+  display:block;
+  margin:auto;
+  border:2px solid black;
+}
+
+input {
+  margin-bottom:10px;
+}
+
+.row {
+  padding-top:10px;
+  padding-bottom:0px;
+  background-color: #f3f3f3;
+}

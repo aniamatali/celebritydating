@@ -27,6 +27,14 @@ $(document).ready(function() {
 
       event.preventDefault();
 
+
+
+      });
+      $("#color").change(function()  {
+        var favoriteColor = $(this).val(); // instead of putting (this) you can also put (input#color).val();
+        $(".celebrities").css("background-color",favoriteColor);
+
+
   });
 
 
